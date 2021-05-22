@@ -4,7 +4,9 @@ Here you will find the files I use to set my react apps.
 I'm using the following procedure to feel propely set : 
 
 npx create-react-app name_of_my_app
+
 cd name_of_my_app
+
 npm i axios react-router-dom bootstrap react-bootstrap
 
 Then I copy past the App.js file you will find in this repository.

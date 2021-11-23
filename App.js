@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
+import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 import PagePrincipale from "./components/PagePrincipale.js";
 
@@ -12,9 +12,9 @@ constructor(){
 render() {
 		return(
 			 <Router>
-				<Switch>
-					<Route exact path="/"> <PagePrincipale /> </Route>
-				</Switch>
+				<Routes>
+					<Route path="/" element={<PagePrincipale/>}/> 
+				</Routes>
 			</Router>
 		)
 	}

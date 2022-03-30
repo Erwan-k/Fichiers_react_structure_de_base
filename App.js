@@ -4,7 +4,7 @@ import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 
 import PagePrincipale from "./components/PagePrincipale.js";
 
-function App = () =>{
+const App = () =>{
 	return(
 		<Router>
 			<Routes>
